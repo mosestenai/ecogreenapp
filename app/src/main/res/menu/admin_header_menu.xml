@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+
+        <item
+            android:id="@+id/nav_item_two"
+            android:icon="@mipmap/signup"
+            android:title="View feedbacks"/>
+        <item
+            android:id="@+id/nav_item_three"
+            android:icon="@mipmap/terms"
+            android:title="Add collection centre"/>
+        <item
+            android:id="@+id/nav_item_five"
+            android:icon="@drawable/question"
+            android:title="Quizes"/>
+        <item
+            android:id="@+id/nav_item_four"
+            android:icon="@mipmap/signup"
+            android:title="logout"/>
+    </group>
+
+
+
+</menu>

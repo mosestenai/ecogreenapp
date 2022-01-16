@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item
+            android:id="@+id/nav_item_one"
+            android:icon="@mipmap/login"
+            android:title="Login"/>
+
+        <item
+            android:id="@+id/nav_item_two"
+            android:icon="@mipmap/signup"
+            android:title="Sign up"/>
+        <item
+            android:id="@+id/nav_item_three"
+            android:icon="@mipmap/terms"
+            android:title="About us"/>
+    </group>
+    <item android:title="Services">
+        <menu>
+            <item android:id="@+id/nav_item_four"
+                android:icon="@drawable/ic_baseline_preview_24"
+                android:title="Shops"/>
+            <item
+                android:id="@+id/nav_item_five"
+                android:icon="@mipmap/lservices"
+                android:title="Items"
+                />
+
+        </menu>
+    </item>
+
+        <item android:title="Others">
+<menu>
+
+        <item android:id="@+id/nav_item_seven"
+            android:icon="@mipmap/services"
+            android:title="Faqs"/>
+
+        <item android:id="@+id/nav_item_eight"
+            android:icon="@mipmap/account"
+            android:title="Feedback"/>
+
+
+</menu>
+        </item>
+    <item
+        android:id="@+id/nav_item_ten"
+        android:icon="@mipmap/signout"
+        android:title="Sign out"/>
+</menu>

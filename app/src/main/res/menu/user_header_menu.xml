@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item
+            android:id="@+id/nav_item_one"
+            android:icon="@mipmap/login"
+            android:title="Post idea"/>
+
+        <item
+            android:id="@+id/nav_item_two"
+            android:icon="@mipmap/signup"
+            android:title="Add Collection centre"/>
+        <item
+            android:id="@+id/nav_item_four"
+            android:icon="@mipmap/signout"
+            android:title="LOGOUT"/>
+    </group>
+
+
+
+</menu>

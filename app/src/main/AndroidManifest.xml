@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ecogreen">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo1"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Ecogreen.NoActionBar">
+        <activity android:name=".ownerviewshop"></activity>
+        <activity android:name=".viewfeedbacks" />
+        <activity android:name=".replyquiz" />
+        <activity android:name=".getquizes" />
+        <activity android:name=".shopitems" />
+        <activity android:name=".postQuestion" />
+        <activity android:name=".buyitem" />
+        <activity android:name=".transactions" />
+        <activity android:name=".resetpassword" />
+        <activity android:name=".addshopActivity" />
+        <activity android:name=".additemActivity" />
+        <activity android:name=".feedbackActivity" />
+        <activity android:name=".faqsActivity" />
+        <activity android:name=".adminActivity" />
+        <activity android:name=".Upload" />
+        <activity android:name=".testImageActivity" />
+        <activity android:name=".userAccountActivity" />
+        <activity android:name=".addcentreActivity" />
+        <activity android:name=".postideaActivity" />
+        <activity android:name=".ideasActivity" />
+        <activity android:name=".centresActivity" />
+        <activity android:name=".shopsActivity" />
+        <activity android:name=".userallActivity" />
+        <activity android:name=".ownershopActivity" />
+        <activity android:name=".aboutusActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".allActivity" />
+        <activity android:name=".registerActivity" />
+        <activity android:name=".loginActivity" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
